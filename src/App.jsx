@@ -1,15 +1,18 @@
-import { Star, Check, Lock } from "lucide-react"
-import logo from "./assets/ExlixirVieFinal-031.png"
-import navbar from "./assets/1.png"
-import thumbs from "./assets/thumbs.png"
-import plain from "./assets/plain.png"
-import medal from "./assets/medal.png"
-import refresh from "./assets/refresh.png"
-import comment from "./assets/comment.jpg"
-import cream from "./assets/cream.png"
-import dermatology from "./assets/dermatology.png"
-import madeinUSA from "./assets/madeinUSA.png"
-import GPM from "./assets/GPM.png"
+import { Star, Check, Lock } from "lucide-react";
+import logo from "./assets/ExlixirVieFinal-031.png";
+import navbar from "./assets/1.png";
+import thumbs from "./assets/thumbs.png";
+import plain from "./assets/plain.png";
+import medal from "./assets/medal.png";
+import refresh from "./assets/refresh.png";
+import comment from "./assets/comment.jpg";
+import cream from "./assets/cream.png";
+import dermatology from "./assets/dermatology.png";
+import madeinUSA from "./assets/madeinUSA.png";
+import GPM from "./assets/GPM.png";
+import Group from "./assets/Group.png";
+import skincare from "./assets/skincare 1.png";
+import skin from "./assets/skin 1.png";
 const App = () => {
   return (
     <div className="w-full min-h-screen">
@@ -20,7 +23,7 @@ const App = () => {
             Due to increased demand for our product we cannot guarantee supply.
           </p>
         </span>
-        <div className="w-full bg-pink-900">
+        <div className="w-full bg-gradient-to-tl from-pink-600 to-pink-950">
           {/* main container */}
           {/* Top Navbar */}
           <div className="flex items-center px-8 py-4">
@@ -119,7 +122,7 @@ const App = () => {
                 </div>
                 <div className="flex">
                   <img src={dermatology} alt="dermatology" />
-                   <img src={madeinUSA} alt="madeinUSA" />
+                  <img src={madeinUSA} alt="madeinUSA" />
                   <img src={GPM} alt="GPM" />
                 </div>
               </div>
@@ -223,6 +226,63 @@ const App = () => {
                 alt="Product"
                 className="absolute left-235 top-1/2 -translate-x-1/2 -translate-y-1/2 w-135 rounded-lg"
               />
+            </div>
+          </div>
+        </div>
+        {/* Second Section */}
+        <div className="w-full min-h-screen">
+          <div className="w-full h-1/2 flex flex-col items-center justify-center">
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-pink-950 text-4xl font-bold pt-10 pb-2">
+              Emotive Heading For 3 Steps
+            </h1>
+            <p className="text-black text-m font-light">
+              <span className="block">
+                Our skin is exposed to harsh UVA and UVB radiation resulting
+              </span>
+              <span className="block mt-1 mx-auto max-w-xs">
+                in age spots, fine lines, and wrinkles.
+              </span>
+            </p>
+          </div>
+          <div className="max-w-6xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative bg-gray-100 rounded-2xl p-6 pt-16 text-left">
+              <div className="absolute -top-8 left-6 w-16 h-16 rounded-full bg-gradient-to-tl from-pink-600 to-pink-950 flex items-center justify-center">
+                <img src={Group} alt="Group" className="w-8 h-8" />
+              </div>
+              <span className="absolute -top-36 right-6 text-[12rem] text-gray-200 font-bold">
+                1
+              </span>
+              <h3 className="text-lg font-semibold mb-2">Vitalize</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Nullam
+                vulputate sapien sit amet velit elemen tum pharetra.
+              </p>
+            </div>
+            <div className="relative bg-gray-100 rounded-2xl p-6 pt-16">
+              <div className="absolute -top-8 left-6 w-16 h-16 rounded-full bg-gradient-to-tl from-pink-600 to-pink-950 flex items-center justify-center">
+                <img src={skincare} alt="skincare" className="w-8 h-8" />
+              </div>
+              <span className="absolute -top-36 right-6 text-[12rem] text-gray-200 font-bold">
+                2
+              </span>
+              <h3 className="text-lg font-semibold mb-2">Replenish</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Nullam
+                vulputate sapien sit amet velit elemen tum pharetra.
+              </p>
+            </div>
+            <div className="relative bg-gray-100 rounded-2xl p-6 pt-16">
+              <div className="absolute -top-8 left-6 w-16 h-16 rounded-full bg-gradient-to-tl from-pink-600 to-pink-950 flex items-center justify-center">
+                <img src={skin} alt="skin" className="w-8 h-8" />
+              </div>
+              <span className="absolute -top-36 right-6 text-[12rem] text-gray-200 font-bold">
+                3
+              </span>
+              <h3 className="text-lg font-semibold mb-2">Moisturize</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Nullam
+                vulputate sapien sit amet velit elemen tum pharetra.
+              </p>
             </div>
           </div>
         </div>
