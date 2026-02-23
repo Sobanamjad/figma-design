@@ -13,6 +13,10 @@ import GPM from "./assets/GPM.png";
 import Group from "./assets/Group.png";
 import skincare from "./assets/skincare 1.png";
 import skin from "./assets/skin 1.png";
+import Rectangle from "./assets/Rectangle 24.png";
+import Rectangle25 from "./assets/Rectangle 25.png";
+import Rectangle26 from "./assets/Rectangle 26.png";
+import Result4 from "./assets/4result.png";
 const App = () => {
   return (
     <div className="w-full min-h-screen">
@@ -283,6 +287,80 @@ const App = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Nullam
                 vulputate sapien sit amet velit elemen tum pharetra.
               </p>
+            </div>
+          </div>
+          <div className="max-w-6xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="relative">
+              <img
+                src={Rectangle}
+                alt="Rectangle"
+                className="w-full rounded-lg"
+              />
+              <button
+                className="absolute px-6 py-2 text-white bg-gray-600 rounded-full text-sm"
+                style={{ top: "80%", left: "10%" }}
+              >
+                Before
+              </button>
+              <button
+                className="absolute px-8 py-2 bg-pink-600 rounded-full text-white text-sm"
+                style={{ top: "80%", left: "60%" }}
+              >
+                After
+              </button>
+            </div>
+            <div className="relative">
+              <img
+                src={Rectangle25}
+                alt="Rectangle25"
+                className="w-full rounded-lg"
+              />
+              <button
+                className="absolute px-6 py-2 text-white bg-gray-600 rounded-full text-sm"
+                style={{ top: "80%", left: "10%" }}
+              >
+                Before
+              </button>
+              <button
+                className="absolute px-8 py-2 bg-pink-600 rounded-full text-white text-sm"
+                style={{ top: "80%", left: "60%" }}
+              >
+                After
+              </button>
+            </div>
+            <div className="relative">
+              <img
+                src={Rectangle26}
+                alt="Rectangle26"
+                className="w-full rounded-lg"
+              />
+              <button
+                className="absolute px-6 py-2 text-white bg-gray-600 rounded-full text-sm"
+                style={{ top: "80%", left: "10%" }}
+              >
+                Before
+              </button>
+              <button
+                className="absolute px-8 py-2 bg-pink-600 rounded-full text-white text-sm"
+                style={{ top: "80%", left: "60%" }}
+              >
+                After
+              </button>
+            </div>
+            <div className="relative">
+              <img src={Result4} alt="Result4" className="w-full rounded-lg" />
+              <button
+                className="absolute px-6 py-2 text-white bg-gray-600 rounded-full text-sm"
+                style={{ top: "80%", left: "10%" }}
+              >
+                Before
+              </button>
+              <button
+                className="absolute px-8 py-2 bg-pink-600 rounded-full text-white text-sm"
+                style={{ top: "80%", left: "60%" }}
+              >
+                After
+              </button>
             </div>
           </div>
         </div>
