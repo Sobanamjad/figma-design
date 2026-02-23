@@ -8,7 +8,6 @@ const AdditionalSection = () => {
       <div className="relative flex gap-10 items-start">
         <LeftColumn />
         <RightColumn />
-        
         <img
           src={cream}
           alt="Product"
